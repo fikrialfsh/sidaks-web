@@ -63,15 +63,15 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="/"><span>SI</span>DAX</a></h1>
+        <h1><a href="/"><span></span>SIDAX</a></h1>
       </div>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#main">Beranda</a></li>
-          <li><a href="#cek">Periksa Berita</a></li>
+          <li><a href="#contact">Periksa Berita</a></li>
           <!-- <li><a href="#get-started">Tentang</a></li> -->
-          <li><a href="{{'/report'}}">Report</a></li>
-          <li><a href="{{'/issues'}}">Isu</a></li>
+          <!-- <li><a href="{{'/report'}}">Report</a></li> -->
+          <!-- <li><a href="{{'/issues'}}">Isu</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -86,8 +86,12 @@
       <!-- <img src="{{ asset ('assets/img/landing-page.jpg') }}" style="width: 350px" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100"> -->
       <a href="#contact" class="btn-get-started scrollto">Periksa Berita</a>
     </div>
-  </section><!-- End Hero Section -->
+  </section>
+   <!-- <section id="hero" class="padd-section">
 
+      <div class="container" data-aos="fade-up">
+          <div class="col-lg-12 col-md-6">
+            <div class="section-title text-center"> -->
   <main id="main">
 
     <!-- ======= Get Started Section ======= -->

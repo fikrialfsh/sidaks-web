@@ -3,13 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Kategori;
-use App\Sentimen;
-use App\Stopwords;
 use Auth;
-use App\Imports\RawSentimenImport;
-use App\Imports\StopwordsImport;
-use App\RawSentimen;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
@@ -26,10 +20,9 @@ class AdminController extends Controller
 
     public function dashboard()
     {
-        $sentimen = Sentimen::count();
-        $raw_sentimen = RawSentimen::count();
+      
 
-        return view('administrator.content.index', compact('sentimen', 'raw_sentimen'));
+        return view('administrator.content.index');
     }
 
     public function profil()

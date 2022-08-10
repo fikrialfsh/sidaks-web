@@ -1,6 +1,6 @@
 @extends('administrator.layouts.app2')
 
-@section('title', 'Dashboard E-Sentiment Analysis')
+@section('title', 'Dashboard ')
 
 @section('dashboard', 'active')
 
@@ -32,29 +32,18 @@
             <!-- small card -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>{{$sentimen}}</h3>
+                <h3></h3>
 
                 <p>Data Training</p>
               </div>
               <div class="icon">
-                <i class="fas fa-file"></i>
+                
               </div>
             </div>
           </div>
           <!-- ./col -->
-          <div class="col-lg-6 col-12">
-            <!-- small card -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>{{$raw_sentimen}}</h3>
+      
 
-                <p>Data Testing</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-file"></i>
-              </div>
-            </div>
-          </div>
           <!-- ./col -->
       </div>
       <div class="row">

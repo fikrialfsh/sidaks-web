@@ -110,7 +110,7 @@ span {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #71c55d;
+  background: #232422;
   line-height: 1;
   color: #fff;
   padding: 7px 12px 13px 12px;
@@ -128,13 +128,13 @@ span {
 }
 
 .back-to-top:focus {
-  background: #71c55d;
+  background: #323431;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #55b03f;
+  background: #2c2e2c;
   color: #fff;
 }
 
@@ -193,7 +193,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  /* background: url(../img/hero-bg.png) center bottom no-repeat; */
   background-size: 100%;
   position: relative;
   margin-top: 40px;
@@ -224,7 +224,7 @@ span {
   font-weight: 700;
   line-height: 56px;
   font-family: "Philosopher", sans-serif;
-  color: #71c55d;
+  color: #000000;
 }
 
 @media (max-width: 768px) {
@@ -266,19 +266,19 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #71c55d;
+  border: 2px solid #000000;
   background: #fff;
-  color: #71c55d;
+  color: #000000;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
-  background: #71c55d;
+  background: #000000;
   color: #fff;
 }
 
 #hero .btns a {
-  color: #555;
+  color: rgb(0, 0, 0);
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
@@ -294,7 +294,7 @@ span {
 }
 
 #hero .btns a:hover {
-  color: #71c55d;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -374,7 +374,7 @@ span {
   padding: 8px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #555;
+  color: rgb(0, 0, 0);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -384,7 +384,7 @@ span {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #71c55d;
+  color: #001fe6;
 }
 
 .nav-menu > li {
@@ -501,11 +501,11 @@ span {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #71c55d;
+  color: #222422;
 }
 
 #mobile-nav ul .menu-active a {
-  color: #71c55d;
+  color: #2f342e;
 }
 
 #mobile-body-overly {
@@ -1381,7 +1381,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #71c55d;
+  background: #4f514e;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1389,7 +1389,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #92d283;
+  background: #b6bcb5;
 }
 
 @-webkit-keyframes animate-loading {
